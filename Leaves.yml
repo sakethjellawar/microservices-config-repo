@@ -1,1 +1,19 @@
+spring:
+  datasource:
+    driverClassName: org.postgresql.Driver
+    url: jdbc:postgresql://localhost:5432/postman
+    username: postgres
+    password: Saketh@123$
+  application:
+    name: leave-service
+server:
+  port: 9275
+eureka:
+  instance:
+    prefer-ip-address: true
+  client:
+    register-with-eureka: true
+    fetch-registry: true
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka
 
