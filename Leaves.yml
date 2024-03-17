@@ -6,6 +6,10 @@ spring:
     password: Saketh@123$
   application:
     name: leave-service
+spring:
+  jpa:
+    hibernate:
+      ddl-auto: create
 server:
   port: 9275
 eureka:
